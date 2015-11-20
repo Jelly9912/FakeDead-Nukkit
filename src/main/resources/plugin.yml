@@ -1,1 +1,15 @@
 name: FakeDead
+main: Jelly9912.FakeDead.Main
+version: "1.0_alpha"
+api: ["1.0.0"]
+load: POSTWORLD
+author: Jelly9912
+description: Make a fake dead message on command /fd
+commands:
+ fd:
+  description: "Fakedead command"
+  permission: fakedead.command
+permissions:
+  fakedead.command:
+    description: "Allow players to use command /fd"
+    default: OP
