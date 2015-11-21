@@ -3,7 +3,7 @@ main: jelly9912.fakedead.FakeDeadPlugin
 version: "1.0_alpha"
 api: ["1.0.0"]
 load: POSTWORLD
-author: Jelly9912
+author: Jelly9912, Snake1999
 description: Make a fake dead message on command /fd
 commands:
   fd:
